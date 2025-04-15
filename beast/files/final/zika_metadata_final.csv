@@ -1,0 +1,152 @@
+header,organism,mol_type,isolate,isolation_source,host,geo_loc_name,collection_date
+PQ849442.1,Zika virus,genomic RNA,Zika virus/H.sapiens-tc/KHM/2010/FSS13025,,Homo sapiens,Cambodia,2010
+PQ008648.1,Zika virus,genomic RNA,PD5588109,plasma,Homo sapiens,Seychelles,20-Apr-2024
+PQ129495.1,Zika virus,genomic RNA,BD_147,,Homo sapiens,Bangladesh,2023-12-01
+PQ129494.1,Zika virus,genomic RNA,BD_044,,Homo sapiens,Bangladesh,2023-10-23
+MW122434.1,Zika virus,genomic RNA,PR/DB-ZIKV885/2016,serum,Homo sapiens,Puerto Rico,19-Jul-2016
+MW122415.1,Zika virus,genomic RNA,PR/DB-ZIKV599/2017,serum,Homo sapiens,Puerto Rico,20-Jan-2017
+KX377336.1,Zika virus,genomic RNA,,,Aedes aegypti (mosquito),Malaysia,Jul-1966
+PP626404.1,Zika virus,genomic RNA,Zika-3259-2011,urine,Homo sapiens,Thailand,2016
+PP626402.1,Zika virus,genomic RNA,Z4-ERC-R2,serum,Homo sapiens,Thailand,2017
+MT377501.2,Zika virus,genomic RNA,MU-DMSC-5/2017,serum,Homo sapiens,Thailand: Bangkok,22-Nov-2017
+MT377493.2,Zika virus,genomic RNA,MU-DMSC-2/2017,serum,Homo sapiens,Thailand: Samut Sakorn,23-Feb-2017
+PP316140.1,Zika virus,genomic RNA,Zika virus/human/Haiti/36/2021,serum,Homo sapiens,Haiti,02-Dec-2021
+PP316139.1,Zika virus,genomic RNA,Zika virus/human/Haiti/15/2021,serum,Homo sapiens,Haiti,12-May-2021
+PP115590.1,Zika virus,genomic RNA,THA_139N,,Homo sapiens,Thailand,2014
+OP858784.1,Zika virus,genomic RNA,67,,Homo sapiens,Cuba,02-Jan-2020
+OP858774.1,Zika virus,genomic RNA,54,,Homo sapiens,Cuba,20-Mar-2018
+OP858772.1,Zika virus,genomic RNA,52,,Homo sapiens,Cuba,22-Mar-2018
+OP858770.1,Zika virus,genomic RNA,50,,Homo sapiens,Cuba,16-Feb-2018
+OP858763.1,Zika virus,genomic RNA,42,,Homo sapiens,Cuba,22-Oct-2017
+ON142674.1,Zika virus,genomic RNA,AB3502,,Homo sapiens,Thailand,05-Jan-2021
+ON142673.1,Zika virus,genomic RNA,AB3234,,Homo sapiens,Thailand,09-Oct-2020
+ON142672.1,Zika virus,genomic RNA,BK3007,,Homo sapiens,Thailand,01-Jul-2020
+ON142671.1,Zika virus,genomic RNA,BK2717,,Homo sapiens,Thailand,17-Jan-2020
+OR264647.1,Zika virus,genomic RNA,AB4537,,Homo sapiens,Thailand,16-Mar-2023
+OR264646.1,Zika virus,genomic RNA,AB4506,,Homo sapiens,Thailand,04-Mar-2023
+OR264645.1,Zika virus,genomic RNA,AB4262,,Homo sapiens,Thailand,19-Dec-2022
+OR264644.1,Zika virus,genomic RNA,AB4153,,Homo sapiens,Thailand,18-Nov-2022
+OR264643.1,Zika virus,genomic RNA,AB4070,,Homo sapiens,Thailand,01-Nov-2022
+OR264642.1,Zika virus,genomic RNA,AB3564,,Homo sapiens,Thailand,05-Feb-2021
+OR264641.1,Zika virus,genomic RNA,AB4443,,Homo sapiens,Thailand,14-Feb-2023
+OR264640.1,Zika virus,genomic RNA,AB4440,,Homo sapiens,Thailand,14-Feb-2023
+OR264639.1,Zika virus,genomic RNA,AB4421,,Homo sapiens,Thailand,02-Feb-2023
+OR264638.1,Zika virus,genomic RNA,AB4398,,Homo sapiens,Thailand,28-Jan-2023
+OR264637.1,Zika virus,genomic RNA,AB4215,,Homo sapiens,Thailand,03-Dec-2022
+OR264636.1,Zika virus,genomic RNA,AB4177,,Homo sapiens,Thailand,24-Nov-2022
+OR264635.1,Zika virus,genomic RNA,AB4174,,Homo sapiens,Thailand,23-Nov-2022
+OR264634.1,Zika virus,genomic RNA,AB4119,,Homo sapiens,Thailand,09-Nov-2022
+OR264633.1,Zika virus,genomic RNA,AB4052,,Homo sapiens,Thailand,29-Oct-2022
+OR264632.1,Zika virus,genomic RNA,AB3790,,Homo sapiens,Thailand,15-Jun-2022
+OR264631.1,Zika virus,genomic RNA,AB3389,,Homo sapiens,Thailand,27-Nov-2020
+OQ180929.1,Zika virus,genomic RNA,ArD41519,,Aedes africanus,Senegal,1984
+OQ165285.1,Zika virus,genomic RNA,p6740,,A. aegypti mosquitoes,Malaysia,1966
+OQ661919.1,Zika virus,genomic RNA,SV180092-02,C6/36-3,Homo sapiens,Thailand,06-Nov-2018
+OQ661918.1,Zika virus,genomic RNA,SV0014/18,"TS-1, C6/36-1",Homo sapiens,Thailand,2018
+OQ661917.1,Zika virus,genomic RNA,SK2520/18,"TS-1, C6/36-1",Homo sapiens,Thailand,25-Aug-2018
+OQ661915.1,Zika virus,genomic RNA,31488/13,"TS1, C6/36-2",Homo sapiens,Thailand,19-Aug-2013
+OQ661914.1,Zika virus,genomic RNA,30790/11,"TS-1, C6/36-1",Homo sapiens,Thailand,04-Jul-2011
+OQ661913.1,Zika virus,genomic RNA,30634/17,"TS1, C6/36-2",Homo sapiens,Thailand,11-Jul-2017
+MN025403.1,Zika virus,genomic RNA,15555,,Homo sapiens,Guinea: Faranah,29-Aug-2018
+OP898542.1,Zika virus,genomic RNA,V_8565,,Homo sapiens,Colombia,01-Apr-2018
+OP898541.1,Zika virus,genomic RNA,C11541,,Homo sapiens,Colombia,01-Oct-2018
+OK571913.1,Zika virus,genomic RNA,Homo sapiens/Haiti/0728/2014,plasma,Homo sapiens,Haiti,25-Nov-2014
+MN577543.1,Zika virus,genomic RNA,Haiti/1327/2014,plasma,Homo sapiens,Haiti,11-Dec-2014
+KY415991.1,Zika virus,genomic RNA,Haiti/0097/2014,plasma,Homo sapiens,Haiti,24-Jun-2014
+KY415990.1,Zika virus,genomic RNA,Haiti/0036/2014,plasma,Homo sapiens,Haiti,02-Jun-2014
+KY415989.1,Zika virus,genomic RNA,Haiti/0074/2014,plasma,Homo sapiens,Haiti,10-Jun-2014
+KY415988.1,Zika virus,genomic RNA,Haiti/0054/2014,plasma,Homo sapiens,Haiti,05-Jun-2014
+KY415987.1,Zika virus,genomic RNA,Haiti/0033/2014,plasma,Homo sapiens,Haiti,29-May-2014
+KY415986.1,Zika virus,genomic RNA,Haiti/0029/2014,plasma,Homo sapiens,Haiti,29-May-2014
+OM964568.1,Zika virus,genomic RNA,BK2763,,Homo sapiens,Thailand,26-Jan-2020
+OM964567.1,Zika virus,genomic RNA,BK2504,,Homo sapiens,Thailand,24-Dec-2019
+OM964566.1,Zika virus,genomic RNA,BK2351,,Homo sapiens,Thailand,12-Dec-2019
+OM964565.1,Zika virus,genomic RNA,BK1463,,Homo sapiens,Thailand,03-Oct-2019
+OP281680.1,Zika virus,genomic RNA,NS1-101,,Homo sapiens,Thailand,11-Aug-2006
+OM522327.1,Zika virus,genomic RNA,584,,Homo sapiens,Mexico: Morelos,16-Sep-2021
+OL414716.1,Zika virus,genomic RNA,15555,,Homo sapiens,Guinea,Dec-2018
+OK054483.1,Zika virus,genomic RNA,ZIKV/Homo_Sapiens/NIC/7502_CHB3148/2016,serum,Homo sapiens,Nicaragua,12-Jul-2016
+OK054471.1,Zika virus,genomic RNA,ZIKV/Homo_Sapiens/NIC/6219_CZB140/2016,serum,Homo sapiens,Nicaragua,26-Aug-2016
+MT377504.1,Zika virus,genomic RNA,NS-110/2006,serum,Homo sapiens,Thailand,06-Sep-2006
+MT377502.1,Zika virus,genomic RNA,NS-274/2006,serum,Homo sapiens,Thailand,28-Oct-2006
+MT377497.1,Zika virus,genomic RNA,MU-DMSC-3/2016,urine,Homo sapiens,Thailand: Rayong,25-Nov-2016
+MT377494.1,Zika virus,genomic RNA,MU-DMSC-3/2017,serum,Homo sapiens,Thailand: Samut Sakorn,24-Nov-2017
+MW143021.1,Zika virus,genomic RNA,,,,Uganda,1947
+MW143020.1,Zika virus,genomic RNA,,,,Uganda,1947
+MW143019.1,Zika virus,genomic RNA,,,,Uganda,1947
+MW143018.1,Zika virus,genomic RNA,,,,Uganda,1947
+MW143017.1,Zika virus,genomic RNA,,,,Uganda,1947
+MW680970.1,Zika virus,genomic RNA,rGZ02p/2018,,Homo sapiens,China,24-Jan-2018
+MW015936.1,Zika virus,genomic RNA,Zika virus/H.sapiens-tc/THA/2006/CVD_06-020,serum,Homo sapiens,Thailand,11-Aug-2006
+MN101548.1,Zika virus,genomic RNA,Salvador,,Aedes albopictus C636,Brazil,11-Nov-2017
+MT507049.1,Zika virus,genomic RNA,S-542/Yucatan/2017,,Homo sapiens,Mexico,2017
+MT507048.1,Zika virus,genomic RNA,S-542/Yucatan/2017,,Homo sapiens,Mexico,2017
+MT507047.1,Zika virus,genomic RNA,S-542/Yucatan/2017,,Homo sapiens,Mexico,2017
+MN611472.1,Zika virus,genomic RNA,2019YNZIKV02,plasma,Homo sapiens,China,01-Jul-2019
+MK269360.1,Zika virus,genomic RNA,FLSR103,serum,Homo sapiens,USA,09-Aug-2016
+MH063264.1,Zika virus,genomic RNA,ZIKV/Homo_sapiens/Cuba/2017/FL055Se,serum,Homo sapiens,Cuba,13-Aug-2017
+MK028860.1,Zika virus,genomic RNA,Zika virus/A.africanus-tc/Senegal/1984/DAK AR 41524,mosquito,Aedes africanus,Senegal: Kedougou,1984
+MK713748.1,Zika virus,genomic RNA,PRVABC59,,Homo sapiens,Puerto Rico,01-Dec-2015
+MH882528.1,Zika virus,genomic RNA,Zika virus/H.sapiens-wt/BRA/2016/ZKV17Auri_2016-04-26,urine,Homo sapiens,Brazil,2016-04-26
+MF510857.1,Zika virus,genomic RNA,Zika virus/Aedes taylori/Senegal/1984/DakAr41667,,Aedes taylori,Senegal,12-Jun-1984
+MH013290.1,Zika virus,genomic RNA,BKK07,brain,Homo sapiens,Thailand,01-Oct-2017
+MF073358.1,Zika virus,genomic RNA,15261,serum,Homo sapiens,Brazil,01-Jun-2015
+MH158236.1,Zika virus,genomic RNA,FSS13025,,Homo sapiens,Cambodia,2010
+MG827392.1,Zika virus,genomic RNA,,serum,Homo sapiens,French Polynesia,25-Oct-2013
+MF988734.1,Zika virus,genomic RNA,SG(EHI)ZIKV/33164Y17,blood,Homo sapiens,Singapore,Aug-2017
+MG645981.1,Zika virus,genomic RNA,CVD_06-274,serum,Homo sapiens,Thailand,28-Oct-2006
+KU729218.1,Zika virus,genomic RNA,BeH818305,,Homo sapiens,Brazil,2015
+KX447517.1,Zika virus,genomic RNA,1_0038_PF,serum,Homo sapiens,French Polynesia,Jan-2014
+KX447515.1,Zika virus,genomic RNA,1_0030_PF,serum,Homo sapiens,French Polynesia,Nov-2013
+KX447514.1,Zika virus,genomic RNA,1_0035_PF,serum,Homo sapiens,French Polynesia,Jan-2014
+KX447513.1,Zika virus,genomic RNA,1_0134_PF,serum,Homo sapiens,French Polynesia,Dec-2013
+KX447512.1,Zika virus,genomic RNA,1_0181_PF,serum,Homo sapiens,French Polynesia,Dec-2013
+KX447511.1,Zika virus,genomic RNA,1_0015_PF,serum,Homo sapiens,French Polynesia,Jan-2014
+KX447510.1,Zika virus,genomic RNA,1_0049_PF,serum,Homo sapiens,French Polynesia,Dec-2013
+KX447509.1,Zika virus,genomic RNA,1_0087_PF,serum,Homo sapiens,French Polynesia,Dec-2013
+MF574587.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2016
+MF574577.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+MF574576.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+MF574575.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+MF574573.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+MF574564.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+MF574555.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+MF574552.1,Zika virus,genomic RNA,,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+KU179098.2,Zika virus,genomic RNA,JMB-185,serum,Homo sapiens,Indonesia: Jambi,30-Dec-2014
+KX247632.1,Zika virus,genomic RNA,MEX_I_7,,Aedes aegypti,Mexico,Nov-2015
+MF438286.1,Zika virus,genomic RNA,,brain,Homo sapiens; microcephaly fetus,Cuba,12-Feb-2017
+KY014322.2,Zika virus,genomic RNA,Zika virus/A.aegypti-wt/USA/2016/FL-03-MOS,pool of 40 female mosquitos,Aedes aegypti,"USA: Miami, FL",23-Aug-2016
+KY014296.2,Zika virus,genomic RNA,Zika virus/H.sapiens-wt/BRA/2016/FC-DQ131D1-URI,urine,Homo sapiens,Brazil: Rio de Janeiro,18-Apr-2016
+KY241779.1,Zika virus,genomic RNA,ZIKV-SG-109,,Aedes aegypti,Singapore,06-Sep-2016
+KY241736.1,Zika virus,genomic RNA,ZIKV-SG-066,,Homo sapiens,Singapore,29-Aug-2016
+KY241713.1,Zika virus,genomic RNA,ZIKV-SG-043,,Homo sapiens,Singapore,28-Aug-2016
+KX051562.1,Zika virus,genomic RNA,SV0010/15,,Homo sapiens,Thailand,16-Jan-2015
+KX051561.1,Zika virus,genomic RNA,SK403/13AS,,Homo sapiens,Thailand,21-Sep-2013
+KX051560.1,Zika virus,genomic RNA,SK364/13AS,,Homo sapiens,Thailand,09-Jul-2013
+KY765317.1,Zika virus,genomic RNA,,,Homo sapiens; M; 6 years,Nicaragua: Managua,29-Jun-2016
+KY631494.1,Zika virus,genomic RNA,MEX_ENCB165P4,serum,Homo sapiens,"Mexico: Tapachula, Chiapas",15-Oct-2015
+KX601166.2,Zika virus,genomic RNA,,,Aedes africanus,Senegal: Kedougou,17-Nov-1984
+KY288905.1,Zika virus,genomic RNA,,,Aedes africanus,Uganda,Nov-1962
+KY348860.1,Zika virus,genomic RNA,A1C1/V5,,Aedes africanus,Senegal: Kedougou,17-Nov-1984
+KX694533.2,Zika virus,genomic RNA,,,Aedes sp.,Malaysia,14-Jul-1966
+KX694532.2,Zika virus,genomic RNA,,,Homo sapiens; female,Thailand,12-Feb-2013
+KX087102.2,Zika virus,genomic RNA,C1/C2,,Homo sapiens,Colombia: Barranquilla,Dec-2015
+KU963574.2,Zika virus,genomic RNA,ZIKV/Homo sapiens/NGA/IbH-30656_SM21V1-V3/1968,,Homo sapiens,Nigeria: Ibadan,09-Sep-1968
+KU963573.2,Zika virus,genomic RNA,ZIKV/Macaca mulatta/UGA/MR-766_SM150-V8/1947,,Macaca mulatta,Uganda: Entebbe,20-Apr-1947
+KY003153.1,Zika virus,viral cRNA,,semen,Homo sapiens,Italy,Apr-2016
+KJ776791.2,Zika virus,genomic RNA,,Vero cells,Homo sapiens,French Polynesia,28-Nov-2013
+KX601169.1,Zika virus,genomic RNA,,,Macaca mulatta,Uganda: Entebbe,20-Apr-1947
+KX601167.1,Zika virus,genomic RNA,,,Aedes sp.,Malaysia,14-Jul-1966
+KX369547.1,Zika virus,genomic RNA,,serum,Homo sapiens,French Polynesia,25-Oct-2013
+KX377335.1,Zika virus,genomic RNA,,,Macaca mulatta (monkey),Uganda,Apr-1947
+KU955595.1,Zika virus,genomic RNA,Zika virus/A.taylori-tc/SEN/1984/41671-DAK,,Aedes taylori,Senegal,14-Dec-1984
+KU955594.1,Zika virus,genomic RNA,Zika virus/M.mulatta-tc/UGA/1947/MR-766,,Macaca mulatta,Uganda,Apr-1947
+KU955593.1,Zika virus,genomic RNA,Zika virus/H.sapiens-tc/KHM/2010/FSS13025,,Homo sapiens,Cambodia,2010
+KU955592.1,Zika virus,genomic RNA,Zika virus/A.taylori-tc/SEN/1984/41662-DAK,,Aedes taylori,Senegal,06-Dec-1984
+KU955591.1,Zika virus,genomic RNA,Zika virus/A.africanus-tc/SEN/1984/41525-DAK,,Aedes africanus,Senegal,20-Nov-1984
+KU681082.3,Zika virus,genomic RNA,Zika virus/H.sapiens-tc/PHL/2012/CPC-0740,,Homo sapiens,Philippines,09-May-2012
+KU681081.3,Zika virus,genomic RNA,Zika virus/H.sapiens-tc/THA/2014/SV0127- 14,,Homo sapiens,Thailand,19-Jul-2014
+KU509998.3,Zika virus,genomic RNA,,plasma,Homo sapiens,Haiti,12-Dec-2014
+KU720415.1,Zika virus,genomic RNA,,,,Uganda,1947
+KU312312.1,Zika virus,genomic RNA,Z1106033,serum,Homo sapiens,Suriname,02-Oct-2015
+KF268948.1,Zika virus,genomic RNA,ARB13565,,Aedes africanus,Central African Republic,1976

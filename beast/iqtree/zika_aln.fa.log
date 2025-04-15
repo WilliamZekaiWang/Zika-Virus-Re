@@ -1,0 +1,374 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MBIlabs-02 (AVX512, FMA3, 713 GB RAM)
+Command: iqtree2 -m MFP --threads 32 -s zika_aln.fa
+Seed:    8653 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Mar 29 19:47:38 2025
+Kernel:  AVX+FMA - 32 threads (120 CPU cores detected)
+
+Reading alignment file zika_aln.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 151 sequences with 10810 columns, 2328 distinct patterns
+2366 parsimony-informative, 790 singleton sites, 7654 constant sites
+                      Gap/Ambiguity  Composition  p-value
+   1  PQ849442.1_63.498630    0.03%    passed     99.51%
+   2  PQ008648.1_77.300546    1.64%    passed     99.83%
+   3  PQ129495.1_76.915068    1.58%    passed     99.68%
+   4  PQ129494.1_76.808219    1.61%    passed     99.09%
+   5  MW122434.1_69.546448    4.98%    passed     97.81%
+   6  MW122415.1_70.052055    4.98%    passed     97.76%
+   7  KX377336.1_19.534247    0.03%    passed     97.44%
+   8  PP626404.1_69.500000    0.81%    passed     99.86%
+   9  PP626402.1_70.498630    1.25%    passed     99.84%
+  10  MT377501.2_70.890411    2.14%    passed     95.03%
+  11  MT377493.2_70.145205    1.25%    passed     99.88%
+  12  PP316140.1_74.917808    0.02%    passed     99.95%
+  13  PP316139.1_74.358904    0.02%    passed     99.97%
+  14  PP115590.1_67.498630    0.58%    passed     99.94%
+  15  OP858784.1_73.002732    2.50%    passed     99.99%
+  16  OP858774.1_71.213699    2.50%    passed     99.79%
+  17  OP858772.1_71.219178    2.50%    passed     99.98%
+  18  OP858770.1_71.126027    2.52%    passed     99.93%
+  19  OP858763.1_70.805479    4.87%    passed     99.78%
+  20  ON142674.1_74.010959    1.87%    passed     99.93%
+  21  ON142673.1_73.770492    1.87%    passed     99.52%
+  22  ON142672.1_73.497268    1.87%    passed     99.52%
+  23  ON142671.1_73.043716    1.87%    passed     98.21%
+  24  OR264647.1_76.202740    1.92%    passed     98.98%
+  25  OR264646.1_76.169863    1.92%    passed     98.54%
+  26  OR264645.1_75.964384    1.92%    passed     99.52%
+  27  OR264644.1_75.879452    1.92%    passed     99.95%
+  28  OR264643.1_75.832877    1.98%    passed     98.83%
+  29  OR264642.1_74.095890    1.92%    passed     99.89%
+  30  OR264641.1_76.120548    1.92%    passed     95.87%
+  31  OR264640.1_76.120548    1.92%    passed     95.24%
+  32  OR264639.1_76.087671    1.92%    passed     98.08%
+  33  OR264638.1_76.073973    2.23%    passed     98.15%
+  34  OR264637.1_75.920548    2.92%    passed     99.84%
+  35  OR264636.1_75.895890    1.92%    passed     96.86%
+  36  OR264635.1_75.893151    1.92%    passed     95.40%
+  37  OR264634.1_75.854795    1.92%    passed     99.67%
+  38  OR264633.1_75.824658    1.92%    passed     96.34%
+  39  OR264632.1_75.452055    1.92%    passed     99.95%
+  40  OR264631.1_73.904372    1.92%    passed     99.45%
+  41  OQ180929.1_37.500000    1.02%    passed     98.10%
+  42  OQ165285.1_19.498630    0.10%    passed     97.64%
+  43  OQ661919.1_71.846575    1.04%    passed     99.16%
+  44  OQ661918.1_71.498630    1.03%    passed     99.55%
+  45  OQ661917.1_71.646575    1.03%    passed     97.74%
+  46  OQ661915.1_66.630137    1.03%    passed     98.78%
+  47  OQ661914.1_64.504110    1.03%    passed     99.01%
+  48  OQ661913.1_70.523288    1.03%    passed     99.42%
+  49  MN025403.1_71.657534    0.93%    passed     84.65%
+  50  OP898542.1_71.246575    1.57%    passed     99.64%
+  51  OP898541.1_71.747945    1.54%    passed     99.54%
+  52  OK571913.1_67.898630    0.03%    passed    100.00%
+  53  MN577543.1_67.942466    0.02%    passed     99.98%
+  54  KY415991.1_67.476712    0.02%    passed     99.97%
+  55  KY415990.1_67.416438    0.02%    passed     99.97%
+  56  KY415989.1_67.438356    0.02%    passed     99.97%
+  57  KY415988.1_67.424658    0.02%    passed     99.94%
+  58  KY415987.1_67.405479    0.02%    passed     99.97%
+  59  KY415986.1_67.405479    0.02%    passed     99.97%
+  60  OM964568.1_73.068306    1.87%    passed     99.71%
+  61  OM964567.1_72.978082    1.87%    passed     98.23%
+  62  OM964566.1_72.945205    1.87%    passed     99.25%
+  63  OM964565.1_72.753425    1.87%    passed     95.91%
+  64  OP281680.1_59.608219    0.03%    passed     99.59%
+  65  OM522327.1_74.706849    0.04%    passed     99.98%
+  66  OL414716.1_71.953425    0.10%    passed     87.50%
+  67  OK054483.1_69.527322    0.28%    passed     99.72%
+  68  OK054471.1_69.650273    0.33%    passed     99.78%
+  69  MT377504.1_59.679452    1.91%    passed     97.50%
+  70  MT377502.1_59.821918    0.37%    passed     98.61%
+  71  MT377497.1_69.898907    1.92%    passed     99.77%
+  72  MT377494.1_70.895890    0.68%    passed     97.11%
+  73  MW143021.1_0.498630     0.86%    passed     82.18%
+  74  MW143020.1_0.498630     0.86%    passed     81.76%
+  75  MW143019.1_0.498630     0.86%    passed     81.02%
+  76  MW143018.1_0.498630     0.85%    passed     81.66%
+  77  MW143017.1_0.498630     0.85%    passed     81.66%
+  78  MW680970.1_71.063014    0.24%    failed      0.00%
+  79  MW015936.1_59.608219    0.03%    passed     99.78%
+  80  MN101548.1_70.860274    0.68%    passed    100.00%
+  81  MT507049.1_70.498630    0.03%    passed     99.83%
+  82  MT507048.1_70.498630    0.03%    passed     99.76%
+  83  MT507047.1_70.498630    0.03%    passed     99.83%
+  84  MN611472.1_72.495890    0.03%    passed     99.79%
+  85  MK269360.1_69.603825    0.28%    passed     99.54%
+  86  MH063264.1_70.613699    4.11%    passed     95.13%
+  87  MK028860.1_37.500000    0.36%    passed     96.59%
+  88  MK713748.1_68.915068    1.25%    passed     99.89%
+  89  MH882528.1_69.316940    0.54%    passed     99.62%
+  90  MF510857.1_37.445355    0.07%    passed     96.12%
+  91  MH013290.1_70.747945    0.44%    passed     95.95%
+  92  MF073358.1_68.413699    0.03%    passed     99.98%
+  93  MH158236.1_63.498630    0.03%    passed     99.06%
+  94  MG827392.1_66.813699    0.03%    passed     99.99%
+  95  MF988734.1_70.619178    3.65%    passed     95.69%
+  96  MG645981.1_59.821918    1.73%    passed     97.38%
+  97  KU729218.1_68.498630    0.75%    passed     99.94%
+  98  KX447517.1_67.038356    1.44%    passed     99.93%
+  99  KX447515.1_66.871233    2.05%    passed     99.71%
+ 100  KX447514.1_67.038356    2.05%    passed     99.15%
+ 101  KX447513.1_66.953425    1.63%    passed     99.79%
+ 102  KX447512.1_66.953425    2.07%    passed     99.82%
+ 103  KX447511.1_67.038356    2.08%    passed     99.82%
+ 104  KX447510.1_66.953425    2.05%    passed     99.36%
+ 105  KX447509.1_66.953425    2.06%    passed     99.59%
+ 106  MF574587.1_69.953552    1.79%    passed     99.84%
+ 107  MF574577.1_68.953425    1.40%    passed     99.89%
+ 108  MF574576.1_68.953425    1.40%    passed     99.76%
+ 109  MF574575.1_68.953425    2.14%    passed     99.96%
+ 110  MF574573.1_68.953425    1.40%    passed     99.78%
+ 111  MF574564.1_68.953425    1.40%    passed     99.85%
+ 112  MF574555.1_68.953425    1.40%    passed     99.97%
+ 113  MF574552.1_68.953425    1.42%    passed     99.88%
+ 114  KU179098.2_67.994521    1.31%    passed     99.60%
+ 115  KX247632.1_68.871233    0.31%    passed     99.49%
+ 116  MF438286.1_70.115068    4.99%    passed     98.98%
+ 117  KY014322.2_69.642077    0.29%    passed     99.80%
+ 118  KY014296.2_69.295082    0.20%    passed     99.98%
+ 119  KY241779.1_69.680328    0.42%    passed     96.57%
+ 120  KY241736.1_69.658470    0.37%    passed     97.11%
+ 121  KY241713.1_69.655738    0.42%    passed     97.98%
+ 122  KX051562.1_68.041096    0.12%    passed     98.97%
+ 123  KX051561.1_66.720548    0.13%    passed     99.92%
+ 124  KX051560.1_66.517808    0.15%    passed     96.38%
+ 125  KY765317.1_69.491803    0.61%    passed     99.49%
+ 126  KY631494.1_68.786301    0.55%    passed     99.82%
+ 127  KX601166.2_37.877049    0.36%    passed     95.83%
+ 128  KY288905.1_15.871233    0.56%    passed     81.91%
+ 129  KY348860.1_37.877049    1.42%    passed     94.89%
+ 130  KX694533.2_19.531507    0.29%    passed     97.66%
+ 131  KX694532.2_66.115068    0.31%    passed     97.79%
+ 132  KX087102.2_68.953425    0.19%    passed     99.93%
+ 133  KU963574.2_21.688525    0.32%    passed     93.13%
+ 134  KU963573.2_0.298630     0.21%    passed     89.35%
+ 135  KY003153.1_69.286885    1.86%    passed     99.41%
+ 136  KJ776791.2_66.906849    0.03%    passed     99.98%
+ 137  KX601169.1_0.298630     1.50%    passed     81.18%
+ 138  KX601167.1_19.531507    0.61%    passed     98.63%
+ 139  KX369547.1_66.813699    0.38%    passed     99.77%
+ 140  KX377335.1_0.284932     0.03%    passed     87.26%
+ 141  KU955595.1_37.950820    0.04%    passed     95.18%
+ 142  KU955594.1_0.284932     0.14%    passed     89.67%
+ 143  KU955593.1_63.498630    0.03%    passed     99.06%
+ 144  KU955592.1_37.928962    0.04%    passed     94.34%
+ 145  KU955591.1_37.885246    0.04%    passed     95.41%
+ 146  KU681082.3_65.352459    0.03%    passed     99.32%
+ 147  KU681081.3_67.545205    0.03%    passed     99.82%
+ 148  KU509998.3_67.945205    0.03%    passed     99.91%
+ 149  KU720415.1_0.498630     0.41%    passed     84.75%
+ 150  KU312312.1_68.750685    4.03%    passed     96.68%
+ 151  KF268948.1_29.500000    0.20%    passed     63.44%
+****  TOTAL                   1.13%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KY415989.1_67.438356 is identical to KY415991.1_67.476712 but kept for subsequent analysis
+NOTE: KY415987.1_67.405479 is identical to KY415990.1_67.416438 but kept for subsequent analysis
+NOTE: KU955593.1_63.498630 is identical to MH158236.1_63.498630 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KY415986.1_67.405479 (identical to KY415990.1_67.416438) is ignored but added at the end
+Alignment was printed to zika_aln.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to zika_aln.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.057 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -52120.900
+Optimal log-likelihood: -52120.862
+Rate parameters:  A-C: 1.44900  A-G: 8.31922  A-T: 1.54859  C-G: 0.66286  C-T: 27.46038  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Proportion of invariable sites: 0.358
+Gamma shape alpha: 0.665
+Parameters optimization took 1 rounds (0.099 sec)
+Time for fast ML tree search: 1.407 seconds
+
+NOTE: ModelFinder requires 113 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 10810) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  GTR+F         54186.362    305 108982.723   109000.494   111205.632
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  GTR+F+I       52206.552    306 105025.105   105042.993   107255.302
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  GTR+F+G4      52122.346    306 104856.692   104874.581   107086.889
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  GTR+F+I+G4    52120.784    307 104855.568   104873.576   107093.054
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  GTR+F+R2      52181.762    307 104977.524   104995.531   107215.010
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  GTR+F+R3      52137.809    309 104893.618   104911.863   107145.680
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  7  GTR+F+R4      52129.992    311 104881.983   104900.469   107148.622
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 16  SYM+G4        52218.835    303 105043.670   105061.205   107252.003
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 17  SYM+I+G4      52217.331    304 105042.663   105060.315   107258.284
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 29  TVM+F+G4      52630.909    305 105871.818   105889.588   108094.727
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 30  TVM+F+I+G4    52598.881    306 105809.762   105827.651   108039.960
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 42  TVMe+G4       52502.029    302 105608.057   105625.475   107809.102
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 43  TVMe+I+G4     52483.383    303 105572.767   105590.302   107781.099
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 55  TIM3+F+G4     52156.963    304 104921.926   104939.579   107137.547
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 56  TIM3+F+I+G4   52155.640    305 104921.280   104939.050   107144.189
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 68  TIM3e+G4      52248.135    301 105098.270   105115.572   107292.027
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 69  TIM3e+I+G4    52246.834    302 105097.667   105115.085   107298.712
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 81  TIM2+F+G4     52127.796    304 104863.591   104881.244   107079.212
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 82  TIM2+F+I+G4   52125.839    305 104861.678   104879.449   107084.587
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 94  TIM2e+G4      52223.068    301 105048.137   105065.438   107241.893
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 95  TIM2e+I+G4    52221.204    302 105046.408   105063.826   107247.452
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+107  TIM+F+G4      52158.867    304 104925.734   104943.386   107141.355
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+108  TIM+F+I+G4    52157.156    305 104924.312   104942.083   107147.221
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+120  TIMe+G4       52248.954    301 105099.908   105117.210   107293.665
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+121  TIMe+I+G4     52247.360    302 105098.720   105116.139   107299.765
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+133  TPM3u+F+G4    52666.641    303 105939.282   105956.817   108147.615
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+134  TPM3u+F+I+G4  52635.447    304 105878.893   105896.546   108094.514
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+146  TPM3+F+G4     52666.641    303 105939.282   105956.817   108147.615
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+147  TPM3+F+I+G4   52635.447    304 105878.893   105896.546   108094.514
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+159  TPM2u+F+G4    52636.282    303 105878.563   105896.098   108086.896
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+160  TPM2u+F+I+G4  52603.911    304 105815.821   105833.474   108031.442
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+172  TPM2+F+G4     52636.282    303 105878.563   105896.098   108086.896
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+173  TPM2+F+I+G4   52603.911    304 105815.821   105833.474   108031.442
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+185  K3Pu+F+G4     52668.789    303 105943.578   105961.113   108151.911
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+186  K3Pu+F+I+G4   52637.291    304 105882.582   105900.235   108098.203
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+198  K3P+G4        52531.880    300 105663.760   105680.946   107850.228
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+199  K3P+I+G4      52513.556    301 105629.111   105646.413   107822.868
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+211  TN+F+G4       52160.296    303 104926.592   104944.127   107134.925
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+212  TN+F+I+G4     52158.567    304 104925.134   104942.787   107140.755
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+224  TNe+G4        52250.275    300 105100.551   105117.736   107287.019
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+225  TNe+I+G4      52248.663    301 105099.327   105116.628   107293.083
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+237  HKY+F+G4      52670.071    302 105944.141   105961.559   108145.186
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+238  HKY+F+I+G4    52638.571    303 105883.142   105900.677   108091.475
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+250  K2P+G4        52533.077    299 105664.154   105681.223   107843.334
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+251  K2P+I+G4      52514.752    300 105629.505   105646.690   107815.973
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+263  F81+F+G4      56648.695    301 113899.390   113916.692   116093.147
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+264  F81+F+I+G4    56639.298    302 113882.597   113900.015   116083.641
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+276  JC+G4         56461.611    298 113519.222   113536.176   115691.114
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+277  JC+I+G4       56447.256    299 113492.511   113509.581   115671.691
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TIM2+F+G4
+Best-fit model: TIM2+F+G4 chosen according to BIC
+
+All model information printed to zika_aln.fa.model.gz
+CPU time for ModelFinder: 1272.377 seconds (0h:21m:12s)
+Wall-clock time for ModelFinder: 40.261 seconds (0h:0m:40s)
+
+NOTE: 45 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -52127.796
+Optimal log-likelihood: -52127.795
+Rate parameters:  A-C: 1.81265  A-G: 10.15282  A-T: 1.81265  C-G: 1.00000  C-T: 32.89021  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Gamma shape alpha: 0.254
+Parameters optimization took 1 rounds (0.088 sec)
+Computing ML distances based on estimated model parameters... 0.730 sec
+Computing BIONJ tree...
+0.011 seconds
+Log-likelihood of BIONJ tree: -52188.301
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.406 second
+Computing log-likelihood of 98 initial trees ... 4.842 seconds
+Current best score: -52127.795
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -52127.794
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -52125.588
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -52125.568
+Iteration 10 / LogL: -52126.802 / Time: 0h:0m:19s
+Iteration 20 / LogL: -52125.606 / Time: 0h:0m:28s
+Finish initializing candidate tree set (20)
+Current best tree score: -52125.568 / CPU time: 27.914
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -52126.957 / Time: 0h:0m:48s (0h:2m:2s left)
+Iteration 40 / LogL: -52125.766 / Time: 0h:1m:5s (0h:1m:47s left)
+Iteration 50 / LogL: -52129.295 / Time: 0h:1m:23s (0h:1m:31s left)
+Iteration 60 / LogL: -52125.768 / Time: 0h:1m:39s (0h:1m:14s left)
+Iteration 70 / LogL: -52125.758 / Time: 0h:1m:55s (0h:0m:57s left)
+Iteration 80 / LogL: -52125.806 / Time: 0h:2m:13s (0h:0m:40s left)
+Iteration 90 / LogL: -52125.669 / Time: 0h:2m:29s (0h:0m:23s left)
+Iteration 100 / LogL: -52146.404 / Time: 0h:2m:47s (0h:0m:6s left)
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:2m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -52125.568
+Optimal log-likelihood: -52125.568
+Rate parameters:  A-C: 1.81236  A-G: 10.15779  A-T: 1.81236  C-G: 1.00000  C-T: 32.88812  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.220  G: 0.292  T: 0.214
+Gamma shape alpha: 0.254
+Parameters optimization took 1 rounds (0.076 sec)
+BEST SCORE FOUND : -52125.568
+Total tree length: 0.674
+
+Total number of iterations: 105
+CPU time used for tree search: 5431.836 sec (1h:30m:31s)
+Wall-clock time used for tree search: 176.134 sec (0h:2m:56s)
+Total CPU time used: 5444.320 sec (1h:30m:44s)
+Total wall-clock time used: 176.553 sec (0h:2m:56s)
+
+Analysis results written to: 
+  IQ-TREE report:                zika_aln.fa.iqtree
+  Maximum-likelihood tree:       zika_aln.fa.treefile
+  Likelihood distances:          zika_aln.fa.mldist
+  Screen log file:               zika_aln.fa.log
+
+Date and Time: Sat Mar 29 19:51:15 2025
