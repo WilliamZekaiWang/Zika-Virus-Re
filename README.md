@@ -1,7 +1,91 @@
 # Zika-Virus-Re
 
-This is the repository of scripts done to calculate the Re of the Zika Virus across time.
+This is the repository of scripts done to calculate the Re of the Zika Virus across time. 
 
-workflow.txt details the workflow for the script
+## ALL SCRIPTS ARE LOCATED IN `scripts/` UNLESS OTHERWISE SPECIFIED
 
-Report.pdf is the written follow up for the data
+### getting the data + metadata
+Query: "esearch -db nucleotide -query 'txid64320[Organism] AND complete[Title] AND 9000:12000[slen]' | efetch -format gb > zika.gb"
+- output zika.gb
+
+Parse into fasta
+- command: python3 parse_genbank.py zika.gb zika_meta.csv zika.fa
+- input: gb from genbank query
+- output zika.fa, zika_meta.csv # opted not to use this metadata data in favour of bioplus/get_metadata.py 
+
+Get metadata
+- command python3 /Bioplus/Bioplus/get_metadata.py zika.fa --email wwang859@uwo.ca -o zika_metadata.csv
+- input: raw fasta from database
+- output: zika_metadata.csv
+
+Move all three files into `files/raw`
+- zika_metadata.csv, zika.fa, zika.gb
+
+### cleaning data 
+add dates to sequences
+- command: python3 /Bioplus/Bioplus/add_dates.py zika.fa zika_metadata.csv > zika_dates.fa
+- input: zika.fasta # raw fasta
+- output: zika_dates.fa
+
+remove ambiguous sequences
+- command: python3 remove_ambigous_sequences.py
+- input: zika_dates.fa
+- output: zika_clean_dates.fa
+
+downsample
+- command: python3 scripts/downsample.py
+- input: zika_clean_dates.fa
+- ouput: zika_downsample.fa
+
+align to find who to clean out as outlier
+- command: mafft --auto zika_downsample.fa > first_aln.fa
+- input: zika_downsample.fa
+- output: first_aln.fa
+
+remove outlier sequences which introduced gaps
+- command: python3 scripts/remove_outlier_sequences.py
+- input: zika_downsample.fa
+- output: zika_no_out.fa
+
+Move cleaning-progress files to files/cleaning
+- zika_dates.fa, zika_clean_dates.fa, zia_aln.fa, zika_no_out.fa
+
+### make final files for BEAST2
+change to decimal years for BEAST2
+- command python3 change_dec_year.py zika_no_out.fa zika_final.fa
+- inputL zika_no_out.fa
+- output: zika_final.fa
+
+realign for beast2 and iqtree
+- mafft python3 zika_final.fa > zika_aln.fa
+
+filter metadata to match these final sequences
+- python3 filter_metadata.csv
+- input: zika.fa, zika_metadata.csv
+- output: zika_metadata_final.csv
+
+Move final files for analysis into `files/final`
+- zika_final.fa, zika_aln.fa, zika_metadata_final.csv
+
+### IQTREE
+do this for beast2 starting tree
+- command: iqtree2 -m MFP --threads 32 -s zika_aln.fa
+
+Move all output files to `iqtree/`
+
+### BEAST
+all files are located in `beast/run*`
+
+### Generating figures
+All figures are uploaded to `figures/`
+
+I used tracer on my local machine
+- posterior.pdf is the combined trace
+
+The server couldn't run scripts/bdsky_plot_1.3.3.R on the server because of dependency issues, ran it locally instead
+- generated skyline_plot.pdf
+
+I used figtree to generate the trees, and photopea.com (online photoshop) to merge them together on my local machine
+- original.png is the ML tree produced by iqtree2
+- run1.png is the tree output from BEAST2 run1
+- run2.png is the tree output from BREAST2 run2
